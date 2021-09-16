@@ -21,12 +21,15 @@
 
 
 ----------------------------------------------------------------------------------------------------
+Запуск проекта в docker:
+Сборка docker образа:
+- docker build -t quiz-django-app .
+Запуск приложения:
+- docker run -p 8000:8000 -d quiz-django-app
 
 документация API: http://0.0.0.0:8000/swagger/
 
-Запуск проекта в docker:
-docker build -t quiz-django-app .
-docker run -p 8000:8000 -d quiz-django-app
+
 
 
 
